@@ -5,3 +5,4 @@ def recipe_calcuator():
   ingredients = []
   total_cost = 0.0
   
+  num_ingredients = int(input("enter the number of ingredients: "))
