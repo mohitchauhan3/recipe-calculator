@@ -13,4 +13,7 @@ def recipe_calcuator():
     amount = float(input(f"enter the amunt of {ingredients_name} needed (in units): "))
     ingredinet_cost = amount * cost_per_unit
     total_cost += ingredient_cost
+    
+    ingredients.append((ingredients_name, amount, cost_per_unit, ingredinet_cost))
+    cost_per_serving = total_cost / serving_size
   
