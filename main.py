@@ -19,10 +19,10 @@ def recipe_cost_calculator():
 
     cost_per_serving = total_cost / serving_size
 
-    print("\n-------------------------------------------")
+    print("\n------------------------------------------")
     print(f"Recipe: {recipe_name}")
     print(f"Serving Size: {serving_size}")
-    print("-------------------------------------------")
+    print("--------------------------------------------")
     for ingredient in ingredients:
         print(f"{ingredient[0]} - {ingredient[1]} units - ${ingredient[2]:.2f} per unit - Total Cost: ${ingredient[3]:.2f}")
     print("-------------------------------------------")
