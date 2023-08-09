@@ -16,8 +16,8 @@ def recipe_cost_calculator():
 
     for i in range(num_ingredients):
         ingredient_name = input(f"Enter the name of ingredient {i + 1}: ")
-        amount = float(input(f"Enter the amount of {ingredient_name} needed (in units): "))
-        cost_per_unit = float(input(f"Enter the cost of {ingredient_name} per unit: "))
+        amount = float(input(f"Enter the amount of {ingredient_name} needed (in G): "))
+        cost_per_unit = float(input(f"Enter the cost of {ingredient_name} per G: "))
 
 # requesting the user for the pricing and the ingredients
       
