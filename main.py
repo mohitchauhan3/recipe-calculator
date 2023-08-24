@@ -1,4 +1,7 @@
 # This programme asks users for the name of the recipe and the serving size 
+print("Hello welcome to recipe calculator what is your name ")
+n = input()
+print("welcome to recipe calculator " + n )
 
 
 def recipe_cost_calculator():
@@ -35,7 +38,7 @@ def recipe_cost_calculator():
     print(f"Serving Size: {serving_size}")
     print("--------------------------------------------")
     for ingredient in ingredients:
-        print(f"{ingredient[0]} - {ingredient[1]} units - ${ingredient[2]:.2f} per unit - Total Cost: ${ingredient[3]:.2f}")
+        print(f"{ingredient[0]} - {ingredient[1]} Grams - ${ingredient[2]:.2f} per Grams - Total Cost: ${ingredient[3]:.2f}")
     print("-------------------------------------------")
     print(f"Total Cost: ${total_cost:.2f}")
     print(f"Cost per Serving: ${cost_per_serving:.2f}")
