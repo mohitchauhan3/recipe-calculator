@@ -1,7 +1,18 @@
-# This programme asks users for the name of the recipe and the serving size 
+# This programme asks users for the name of the recipe and the serving size
+
+# asking the users name 
 print("Hello welcome to recipe calculator what is your name ")
 n = input()
 print("welcome to recipe calculator " + n )
+
+
+#showing the instruction.
+def show_instructions():
+  print("\n would you like some basic instructions on to us this program ")
+  answer = input("please answer Yes or No.").lower()
+
+  if answer == "yes":
+    print("1.Your instructions are that this programe will ask for a recipe name and serving size.\n2.list of each ingredients the amonut of the ingredint need and the cost of that ingredient.\n3. At end it will work out the cost per serving.")
 
 
 def recipe_cost_calculator():
