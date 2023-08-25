@@ -14,6 +14,16 @@ def show_instructions():
   if answer == "yes":
     print("1.Your instructions are that this programe will ask for a recipe name and serving size.\n2.list of each ingredients the amonut of the ingredint need and the cost of that ingredient.\n3. At end it will work out the cost per serving.")
 
+  elif answer == "no":
+    print("BYE")
+    exit() 
+
+  else:
+    print("please answer with Yes and No.")
+    show_instructions()
+    
+show_instructions()
+
 
 def recipe_cost_calculator():
     recipe_name = input("Enter the recipe name: ")
